@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+    form .Info label{
+        display: block;
+        margin-top: 12px;
+    }
+    form .date{
+        margin-bottom: 20px;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nev>
+            <ul>
+                <li><a href="blog.html" target="_blank">Blog</a></li>
+                <li><a href="form.html" target="_blank">Form</a></li>
+                <li><a href="table.html" target="_blank">Table</a></li>
+            </ul>
+        </nev>
+    </header>
+    <main>
+        <section>
+            <h1>Students Information</h1>
+            <form>
+                <input class="date" type="date" name="" id="">
+                <fieldset class="Info">
+                    <legend>Info</legend>
+                    <label for="name">Name</label>
+                    <input type="text" name="" id="name">
+                    <label for="email">Email</label>
+                    <input type="email" name="" id="email">
+                    <label for="password">Password</label>
+                    <input type="password" name="" id="password">
+                </fieldset>
+                <fieldset>
+                    <legend>Department</legend>
+                    <input type="radio" name="Dep" id="EEE">
+                    <label for="EEE">EEE</label>
+                    <input type="radio" name="Dep" id="BBA">
+                    <label for="BBA">BBA</label>
+                    <input type="radio" name="Dep" id="LLB">
+                    <label for="LLB">LLB</label>
+                    <input type="radio" name="Dep" id="CSE">
+                    <label for="CSE">CSE</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Semester</legend>
+                    <input type="checkbox" name="semester" id="">
+                    <label for="">1st</label>
+                    <input type="checkbox" name="semester" id="2nd">
+                    <label for="2nd">2nd</label>
+                    <input type="checkbox" name="semester" id="3rd">
+                    <label for="3rd">3rd</label>
+                    <input type="checkbox" name="semester" id="4th">
+                    <label for="4th">4th</label>
+                    <input type="checkbox" name="semester" id="5th">
+                    <label for="5th">5th</label>
+                    <input type="checkbox" name="semester" id="6th">
+                    <label for="6th">6th</label>
+                    <input type="checkbox" name="semester" id="7th">
+                    <label for="7th">7th</label>
+                    <input type="checkbox" name="semester" id="8th">
+                    <label for="8th">8th</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Extra Info</legend>
+                    <textarea cols="60" rows="10" name="" id=""></textarea>
+                </fieldset>
+                
+                <input type="submit" value="submit">
+                <input type="reset" value="clear">
+                
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
